@@ -148,7 +148,7 @@ module.exports = yeoman.generators.Base.extend({
         this.destinationPath('lib/component.css'),
         this.destinationPath('lib/' + this.props.moduleFileName)
       )
-      this.fs.delete(this.destinationPath('lib/utilities.css'))
+      this.fs.delete(this.destinationPath('lib/utilities.css'));
     }
   },
 
