@@ -21,22 +21,24 @@
     "url": "https://github.com/particlecss/generator-particle.git"
   },
   "scripts": {
-    "lint": "standard",
+    "lint": "standard --verbose | snazzy",
+    "precommit": "npm run lint -s",
     "prepublish": "nsp check",
-    "pretest": "npm run lint",
+    "pretest": "npm run lint -s",
     "test": "mocha --reporter spec --slow 400 --timeout 3000"
   },
   "dependencies": {
     "chalk": "^1.0.0",
     "lodash.camelcase": "^4.1.0",
     "standard": "^9.0.0",
-    "yeoman-generator": "^0.21.1",
-    "yosay": "^1.0.2"
+    "yeoman-generator": "^1.1.0",
+    "yosay": "^2.0.0"
   },
   "devDependencies": {
-    "mocha": "^2.4.5",
+    "mocha": "^3.2.0",
     "nsp": "^2.2.0",
+    "snazzy": "^6.0.0",
     "standard": "^9.0.0",
-    "yeoman-assert": "^2.0.0"
+    "yeoman-assert": "^3.0.0"
   }
 }
