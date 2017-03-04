@@ -154,7 +154,11 @@ module.exports = yeoman.generators.Base.extend({
 
   install: function () {
     this.installDependencies({
-      bower: false
+      bower: false,
+      npm: false,
+      callback: function () {
+        console.log('Everything is ready! Run `npm install` or `lerna bootstrap`')
+      }
     })
   }
 })
