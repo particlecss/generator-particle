@@ -1,6 +1,7 @@
 language: node_js
 node_js:
-  - v5
-  - v4
-  - '0.12'
-  - '0.10'
+  - 6
+sudo: false
+before_script:
+  - git config --global user.email "smuemd@gmail.com"
+  - git config --global user.name "Stefan Thon"
