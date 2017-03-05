@@ -62,7 +62,7 @@ MIT
 
 [npm-image]: https://badge.fury.io/js/generator-particlecss.svg
 [npm-url]: https://npmjs.org/package/generator-particlecss
-[travis-image]: https://travis-ci.org/particlecss/generator-particlecss.svg?branch=master
-[travis-url]: https://travis-ci.org/particlecss/generator-particlecss
-[daviddm-image]: https://david-dm.org/particlecss/generator-particlecss.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/particlecss/generator-particlecss
+[travis-image]: https://travis-ci.org/particlecss/generator-particle.svg?branch=master
+[travis-url]: https://travis-ci.org/particlecss/generator-particle
+[daviddm-image]: https://david-dm.org/particlecss/generator-particle.svg?theme=shields.io
+[daviddm-url]: https://david-dm.org/particlecss/generator-particle
