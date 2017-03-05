@@ -11,7 +11,7 @@ First, install [Yeoman](http://yeoman.io) and generator-particle using [npm](htt
 
 ```bash
 npm install -g yo
-npm install -g generator-particle
+npm install -g generator-particlecss
 ```
 
 Make a new directory, and `cd` into it:
@@ -24,7 +24,7 @@ Now scaffold out a PARTICLE package using the `yo` command (and optionally passi
 a name for your module):
 
 ```bash
-yo particle my-component
+yo particlecss my-component
 ```
 
 ## Generator
@@ -34,7 +34,7 @@ Generates the boilerplate you need for a simple PARTICLE component.
 Example:
 
 ```
-yo particle my-component
+yo particlecss my-component
 ```
 
 Produces:
